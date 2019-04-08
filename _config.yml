@@ -1,0 +1,46 @@
+
+gems:
+  - jekyll-archives 
+  - jekyll-sitemap
+  - jekyll-paginate
+
+exclude:
+  - "/vendor/"
+
+# Site settings
+title: Angelkiz
+subtitle: ""
+email: angelkiz@protonmail.com
+author: Angelkiz
+avatar: https://i.imgur.com/nMkCbX6.jpg
+quotes: "Hello World"
+description: 
+  Blog của Angelkiz.
+
+baseurl: "/" 
+url: "https://angelkiz.netlify.com" 
+
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+paginate: 7
+paginate_path: "/page-:num/"
+
+# Archive settings 
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+
+# Disqus comments
+# disqus_shortname: XXXX
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
